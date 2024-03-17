@@ -3,11 +3,10 @@
 .header {
     display: grid;
     grid-template-columns: 2.2fr 1.5fr 1.5fr;
-    padding: 0 50px;
+    padding: 93px 50px;
     gap: 36px;
     align-content: center;
     align-items: center;
-    height: 293px;
 }
 
 .header__menu {
@@ -44,14 +43,14 @@
 .address {
     display: flex;
     flex-direction: column;
+    font-style: normal;
     gap: 2px;
     height: 100%;
     padding: 5px 29px 0;
     font-size: 18px;
 }
 
-.header__address, .footer__address {
-    font-style: normal;
+.address__text {
     line-height: 24px;
 }
 
